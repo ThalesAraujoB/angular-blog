@@ -1,0 +1,20 @@
+.container-small-card{
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.small-card-img > img{
+  width: 200px;
+  min-width: 200px;
+  margin-right: 10px;
+}
+.small-card-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+hr{
+  margin-top: 10px;
+}
