@@ -8,11 +8,11 @@
      srcset="">
   </div>
   <div class="big-card-title">
-    <a href="https://angular.io/"><h1>{{cardTitle}}</h1></a>
+    <a [routerLink]="['content',Id]"><h1>{{cardTitle}}</h1></a>
   </div>
   <div class="big-card-description">
 
-      <p><a href="https://angular.io/">{{cardDescription}}
+      <p><a  [routerLink]="['content',Id]">{{cardDescription}}
          </a>
          </p>
 
